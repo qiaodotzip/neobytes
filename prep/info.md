@@ -9,8 +9,6 @@ Send any codes or files you'll like to share here.
 > [!IMPORTANT]
 > You cannot create an empty folder.
 
-<br>
-
 1. Create new File
 2. In the file name you'll see: **neobytes/*input***
 3. In *input* remember to put / behind the folder name. (Example: **prep/**)
