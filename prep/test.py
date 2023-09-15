@@ -6,7 +6,7 @@ while True:
         print("Stopping the Game.")
         break
     if answer==1:
-        print("It is certain.")
+        print("It is certain-ish.")
     elif answer==2:
         print("It is decidedly so.")
     elif answer==3:
