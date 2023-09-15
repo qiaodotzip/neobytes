@@ -10,10 +10,7 @@ Send any codes or files you'll like to share here.
 3. In *input* remember to put / behind the folder name. (Example: **prep/**)
 4. Now type in the name of the file that goes into the folder. The whole name should look like this: **neobytes/prep/fileName**
 <br>
-<br>
 
 > [!IMPORTANT]
 > Note you cannot create an empty folder!
 
-> [!IMPORTANT]
-> Idk what else to put yet, maybe we can decide on some practice projects to do or smth with Python Flask and SQL
