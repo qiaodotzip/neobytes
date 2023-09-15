@@ -8,7 +8,4 @@ There's prep folder if you wanna upload stuff.
 ## Here's some links ig
 
 > [!IMPORTANT]
-> We're prolly using python so get your ass in this link and read: 
-> https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
-
-Maybe we can decide what projects we wanna do for fun and practice...
+> Idk what else to put yet, maybe we can decide on some practice projects to do or smth with Python Flask and SQL
