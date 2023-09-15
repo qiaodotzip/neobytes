@@ -15,8 +15,8 @@ https://code.visualstudio.com/docs/sourcecontrol/github
 
 Your Explorer should have opened up this repository. Go to test.py.
 ![Capture1](https://github.com/qiaodotzip/neobytes/assets/139465626/703b3bd4-f03c-40bd-9327-71b0604b5f19)
-
-> <br> It's just random 8Ball code. Go ahead and do whatever you want to it.
+<br> 
+> It's just random 8Ball code. Go ahead and do whatever you want to it.
 
 Now go to the 3rd section of your left tab (Crtl+Shift+G), Source Code. Since you edited the code, you can see the changes you made here:
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/7d74f8f6-6622-4b3d-bf66-200f318573c7)
