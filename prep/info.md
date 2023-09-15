@@ -9,4 +9,6 @@ Send any codes or files you'll like to share here.
 2. In the file name you'll see: **neobytes/*input***
 3. In *input* remember to put / behind the folder name. (Example: **prep/**)
 4. Now type in the name of the file that goes into the folder. The whole name should look like this: **neobytes/prep/fileName**
-<br> Note you cannot create an empty folder!
+<br>
+> [!IMPORTANT]
+> Note you cannot create an empty folder!
