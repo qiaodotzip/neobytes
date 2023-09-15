@@ -8,8 +8,7 @@ There's prep folder if you wanna upload stuff.
 ## Here's some links ig
 
 > [!IMPORTANT]
-> We're prolly using python so get your ass in this link and read
-
+> We're prolly using python so get your ass in this link and read /n
 > https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
 
 Maybe we can decide what projects we wanna do for fun and practice...
