@@ -9,6 +9,6 @@ There's prep folder if you wanna upload stuff.
 
 > [!IMPORTANT]
 > Idk what else to put yet, maybe we can decide on some practice projects to do or smth with Python Flask and SQL
-/n
-> A python Cheatsheet for reference
+
+### A python Cheatsheet for reference
 https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
