@@ -30,9 +30,9 @@ Now hit that COMMIT BUTTON.
 Just sync that shit up and we gud. <br>
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/bf163441-28ed-46e5-be4b-ccec94b69df5)
 <br> 
+<br>
 
 > Now your teammates will recieve the changes to their github. So how do you update yours to the latest version?
-
 <br> Go back to your source code and hit that sync button. <br>
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/9cfe037b-e186-4ff0-9c78-7ec4327b1eff)
 
