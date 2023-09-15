@@ -19,16 +19,19 @@ Your Explorer should have opened up this repository. Go to test.py.
 
 > It's just random 8Ball code. Go ahead and do whatever you want to it.
 
-Now go to the 3rd section of your left tab (Crtl+Shift+G), Source Code. Since you edited the code, you can see the changes you made here:
+<br> Now go to the 3rd section of your left tab (Crtl+Shift+G), **Source Code**. 
+<br> Since you edited the code, you can see the changes you made here:
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/7d74f8f6-6622-4b3d-bf66-200f318573c7)
 
-Now hit that COMMIT BUTTON. You'll come to this page. To send your changes to GitHub, you need to put a message aka Step 1. Then hit that tick button in Step 2.
+Now hit that COMMIT BUTTON. 
+<br> You'll come to this page. To send your changes to GitHub, you need to put a message aka Step 1. Then hit that tick button in Step 2.
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/c8e344ac-afcc-4f2d-8267-543a601448e0)
 
 Just sync that shit up and we gud. <br>
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/bf163441-28ed-46e5-be4b-ccec94b69df5)
+<br> 
 
-> <br> Now your teammates will recieve the changes to their github. So how do you update yours to the latest version?
+> Now your teammates will recieve the changes to their github. So how do you update yours to the latest version?
 
 <br> Go back to your source code and hit that sync button. <br>
 ![image](https://github.com/qiaodotzip/neobytes/assets/139465626/9cfe037b-e186-4ff0-9c78-7ec4327b1eff)
