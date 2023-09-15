@@ -10,8 +10,8 @@ There's prep folder if you wanna upload stuff.
 > Follow the first few steps of this guide and look up the name of this repository, clone it into your VScode
 https://code.visualstudio.com/docs/sourcecontrol/github
 
-> <br> If you're reading this omg, congrats on connecting!!!
-> <br> Just in case you need it, I've added something to help you learn and test updating your code to Github.
+<br> If you're reading this omg, congrats on connecting!!!
+<br> Just in case you need it, I've added something to help you learn and test updating your code to Github.
 
 Your Explorer should have opened up this repository. Go to test.py.
 ![Capture1](https://github.com/qiaodotzip/neobytes/assets/139465626/703b3bd4-f03c-40bd-9327-71b0604b5f19)
