@@ -1,6 +1,7 @@
 # Preparation Information
 
-Send any codes or files you'll like to share here. <br>
+Send any codes or files you'll like to share here.
+<br>
 <img src="https://github.com/qiaodotzip/neobytes/assets/139465626/2ccd1e59-62a6-44d7-96c9-47152721bc6e" width="200" />
 <br>
 ## To create a folder:
