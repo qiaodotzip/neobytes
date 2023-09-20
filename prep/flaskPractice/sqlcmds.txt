@@ -14,9 +14,9 @@ Enter the following into the cmd line:
   PRIMARY KEY (`user_id`));
 > DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_createUser`(
-    IN p_name VARCHAR(45),        -- Updated to 45 to match table definition
-    IN p_username VARCHAR(45),    -- Updated to 45 to match table definition
-    IN p_password VARCHAR(255)    -- Updated to 255 for hashed passwords
+    IN p_name VARCHAR(45),       
+    IN p_username VARCHAR(45),    
+    IN p_password VARCHAR(255)  
 )
 BEGIN
     if (select exists (select 1 from tbl_user where user_username = p_username)) THEN
