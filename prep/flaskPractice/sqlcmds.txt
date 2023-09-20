@@ -5,7 +5,7 @@ Using SQL on CMD Line:
 > Not working? Follow this guide, scroll down to the command line section: https://www.liquidweb.com/kb/how-to-install-mysql-windows/
 
 Enter the following into the cmd line:
-> CREATE DATABASE BucketList;
+> CREATE DATABASE BucketList; 
 > CREATE TABLE `BucketList`.`tbl_user` (
   `user_id` BIGINT UNIQUE AUTO_INCREMENT,
   `user_name` VARCHAR(45) NULL,
