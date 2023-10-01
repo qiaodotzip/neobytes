@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Manage Cargo{% endblock %}
+
+{% block content %}
+
+
+
+<div class="breadcrumbs">
+    <div class="page-header d-flex align-items-center" style="background-image: url('static/assets/img/page-header.jpg');">
+        <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2>Cargo Rent Status</h2>
+                    {% if rent_button_pressed == '1' %}
+                        {% set status = 'Rented' %}
+                    {% else %}
+                        {% set status = 'Not Rented' %}
+                    {% endif %}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+        {% for rent_obj in data %}
+        <div class="cargo-container">
+            <div class="container-details">
+                <div class="container-image">
+                    <img src="static/assets/img/him.jpg" alt="Container Image">
+                </div>
+                <div class="container-info">
+                    <strong>Date:</strong> {{ rent_obj.date }}<br>
+                    <strong>Time:</strong> {{ rent_obj.time }}<br>
+                    <strong>Destination:</strong> {{ rent_obj.destination }}<br>
+                    <strong>Status:</strong>
+                    <span class="{% if rent_obj.status == 'Rented' %}status-rented{% else %}status-available{% endif %}">
+                        {{ rent_obj.status }}
+                    </span>
+                </div>
+            </div>
+            <div class="container-actions">
+                <button class="see-details-button">See Details</button>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+<body>
+    <div class="mt-5">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+
+                    <th>Container Type</th>
+                    <th>Rent Duration</th>
+                    <th>Transport</th>
+                    <th>Load Type</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% if costPlan %}
+                {% for costPlan in costPlan %}
+                <tr>
+                    <td>{{ costPlan.container_type }}</td>
+                    <td>{{ costPlan.rental_duration }}</td>
+                    <td>{{ costPlan.transport }}</td>
+                    <td>{{ costPlan.load_type }}</td>
+                </tr>
+                {% endfor %}
+                {% else %}
+                <tr>
+                    <td colspan="9">No containers match your criteria.</td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+{% endblock %}
