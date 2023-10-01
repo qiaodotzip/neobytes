@@ -52,6 +52,50 @@ with app.app_context():
             "port_location": "Pasir Panjang",
             "current_demand": 1
         },
+        {
+            "supplier": "ContainerOne",
+            "container_type_available": "Standard",
+            "volume_available": 2880.0,
+            "weight_limit": 950.0,
+            "size": "40x8x9",
+            "status": "Fully Available",
+            "base_price": 130.0,
+            "port_location": "Tuas",
+            "current_demand": 1
+        },
+        {
+            "supplier": "ContainerOne",
+            "container_type_available": "Dangerous",
+            "volume_available": 2880.0,
+            "weight_limit": 605.0,
+            "size": "20x8x8",
+            "status": "Fully Available",
+            "base_price": 560.0,
+            "port_location": "Tuas",
+            "current_demand": 1
+        },
+        {
+            "supplier": "Sea Box",
+            "container_type_available": "Dangerous",
+            "volume_available": 854.0,
+            "weight_limit": 356.0,
+            "size": "20x8x10",
+            "status": "LCL (Partial)",
+            "base_price": 268.0,
+            "port_location": "Pasir Panjang",
+            "current_demand": 1
+        },
+        {
+            "supplier": "Sea Box",
+            "container_type_available": "Dangerous",
+            "volume_available": 3200.0,
+            "weight_limit": 1964.0,
+            "size": "40x8x10",
+            "status": "Fully Available",
+            "base_price": 754.0,
+            "port_location": "Brani",
+            "current_demand": 1
+        }
     ]
 
     for c_data in cargo_data:
