@@ -1,6 +1,6 @@
 from flask import Flask, render_template, json, request, jsonify, redirect, url_for, flash
 from models import Consumer, Cargo, CostPlan, DynamicPricing, HistoricalPricing
-from plan_algorithm import calc_preference
+from plan_algorithm import calc_preference_with_feedback
 from price_algorithm import update_dynamic_pricing
 from settings import SQLALCHEMY_DATABASE_URI
 from database import db
@@ -74,9 +74,9 @@ def search_containers():
 def get_recommendations():
     plan_preference = request.args.get('planPreference')
     
-    best_rental_duration = calc_preference(plan_preference, 'rental_duration')
-    best_transport = calc_preference(plan_preference, 'transport')
-    best_load_type = calc_preference(plan_preference, 'load_type')
+    best_rental_duration = calc_preference_with_feedback(plan_preference, 'rental_duration')
+    best_transport = calc_preference_with_feedback(plan_preference, 'transport')
+    best_load_type = calc_preference_with_feedback(plan_preference, 'load_type')
 
     calculated_values = {
         'rental_duration': best_rental_duration,
@@ -112,7 +112,6 @@ def insert_plan():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
     
 
 
