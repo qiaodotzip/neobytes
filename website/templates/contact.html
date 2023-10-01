@@ -1,0 +1,75 @@
+{% extends "base.html" %} 
+{% block title %}Home Page{% endblock %} 
+{% block content %}
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('static/assets/img/page-header.jpg');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Contact</h2>
+              <p>Contact our professional port team if you have any queries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Contact</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 340px;" <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.829812947715!2d103.78782187375172!3d1.275439898712434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b131f756d41%3A0x3387c219d7a6a3b!2sPSA%20Horizons!5e0!3m2!1sen!2ssg!4v1696073758728!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4 mt-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Location:</h4>
+                <p>PSA Singapore
+                  1 Harbour Drive, PSA Horizons, Singapore 117352</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Operation Hours:</h4>
+                <p>Mon - Fri: 8:30am to 6pm
+                   Sat & Sun: Closed</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Call:</h4>
+                <p>+65 6274 7111</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  {% endblock %}
