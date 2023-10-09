@@ -1,7 +1,7 @@
 import requests
 
 def classify_with_ml(numbers):
-    key = "e42d7510-6018-11ee-a374-61128d8524ceed27e0c8-9ecf-4bdf-ac27-6c3b506d01b1"
+    key = "dd4084b0-602a-11ee-a374-61128d8524ce237a5789-ec3e-4fc9-bc82-509dae9a4e0d"
     url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.post(url, json={ "data" : numbers })
@@ -15,10 +15,10 @@ def classify_with_ml(numbers):
         return None
     
 preference_weights = {
-    'cost-effective': {'cost': -1, 'time': 1, 'eco': 0.5},
-    'time-effective': {'cost': 0, 'time': -1, 'eco': 0.5},
+    'cost_effective': {'cost': -1, 'time': 1, 'eco': 0.5},
+    'time_effective': {'cost': 0, 'time': -1, 'eco': 0.5},
     'balanced': {'cost': -0.5, 'time': -0.5, 'eco': 1},
-    'eco-friendly': {'cost': 0, 'time': 0.5, 'eco': -1}
+    'eco_friendly': {'cost': 0, 'time': 0.5, 'eco': -1}
 }
 
 # Rental durations
